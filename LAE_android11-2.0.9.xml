@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <include name="tinker_board_2-android11-2.0.8.xml" />
+
   <remote name="LAE_tinkerboard"
           fetch="https://github.com/"
           review="https://github.com/"
           revision="refs/tags/tinker_board_2-android11-2.0.9"
           sync-c="true" />
 
-  <project path="LAE_tinkerboard/1.0/" name="trieu1162000/Learning-Android-Embedded" />
+  <!-- add new project -->
+  <project path="LAE_tinkerboard/1.0/" name="trieu1162000/Learning-Android-Embedded" remote="LAE_tinkerboard" />
 
-  <include name="tinker_board_2-android11-2.0.8.xml" />
 </manifest>
