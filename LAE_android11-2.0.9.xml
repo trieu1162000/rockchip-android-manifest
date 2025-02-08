@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+          fetch="https://github.com/"
+          review="https://github.com/" />
+
+  <default remote="github"
+           revision="refs/tags/tinker_board_2-android11-2.0.9"
+           sync-c="true" />
+
+  <project path="LAE_tinkerboard/1.0/" name="trieu1162000/Learning-Android-Embedded" />
+
+  <include name="tinker_board_2-android11-2.0.8.xml" />
+</manifest>
