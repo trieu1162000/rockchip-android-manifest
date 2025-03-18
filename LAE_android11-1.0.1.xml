@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <include name="tinker_board_2-android11-2.0.8.xml" />
+  <include name="tinker_board-android11-1.0.0.xml" />
 
+  <!-- define new project -->
   <remote name="LAE_tinkerboard"
           fetch="https://github.com/"
           review="https://github.com/"
-          revision="refs/tags/tinker_board_2-android11-2.0.9"
+          revision="refs/tags/LAE_tinker_board-android11-1.0.0"
           sync-c="true" />
 
   <!-- add new project -->
